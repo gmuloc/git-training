@@ -1,0 +1,26 @@
+name: 🚀 Feature Request
+description: Request a feature
+title: "[🚀 Feature Request]: <title>"
+labels: ["🚀  Feature Request", Need Triage]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Describe the feature you'd like
+      description: Provide a clear description of the feature you would like implemented
+    validations:
+      required: true
+  - type: textarea
+    id: benefits
+    attributes:
+      label: Describe the benefits this feature would bring.
+      description: Explain the measurable benefits this feature would achieve for users
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
+      description: Add any other context or screenshots about the feature request here.
+    validations:
+      required: false
